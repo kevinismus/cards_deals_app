@@ -1,3 +1,4 @@
+import 'package:cards_deals_app/banks/DBS/cards/dbs_cards_list.dart';
 import 'package:flutter/material.dart';
 
 class DBSScreen extends StatefulWidget {
@@ -40,24 +41,7 @@ class _DBSScreenState extends State<DBSScreen> {
           ),
           Column(
             children: <Widget>[
-              Row(
-                children: <Widget>[
-                  SizedBox(
-                    height: 100.0,
-                    child: Padding(
-                      padding: EdgeInsets.only(left: 50.0, right: 50.0),
-                      child: Container(
-                        child: Image.asset(
-                          "assets/images/dbs/miles/dbs-altitude-card.png",
-                        ),
-                      ),
-                    ),
-                  ),
-                  Text(
-                    "DBS Altitude Card:\nThe fastest way to fly",
-                  ),
-                ],
-              ),
+              CardsList(),
             ],
           ),
         ],
