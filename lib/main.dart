@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         // Color: Indigo 700
         accentColor: Color(0xFF3D5AFE),
         // Color: Grey 50
-        scaffoldBackgroundColor: Color(0xFFFAFAFA),
+        scaffoldBackgroundColor: Color(0xFFFFFFFF),
       ),
       home: HomeScreen(),
     );

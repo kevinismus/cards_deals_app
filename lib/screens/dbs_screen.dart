@@ -1,4 +1,4 @@
-import 'package:cards_deals_app/banks/DBS/cards/dbs_cards_list.dart';
+import 'package:cards_deals_app/banks/DBS/dbs_cards_list.dart';
 import 'package:flutter/material.dart';
 
 class DBSScreen extends StatefulWidget {
